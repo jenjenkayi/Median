@@ -1,0 +1,81 @@
+#team-container {
+    height: 100vh;
+}
+
+
+.individual > img{
+    border-radius: 12px;
+}
+
+#team-header {
+    width: 100%;
+    height: 68px;
+    background-color: white(255, 192, 23);
+    display: flex;
+    justify-content: center;
+    border-bottom: black;
+}
+#team-header-2 {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+#team-header-2 > * {
+    align-self: center;
+}
+
+#go-back-home {
+    background-color: green;
+    border: transparent;
+    color: white;
+    /* font-weight: bold; */
+    height: 40px;
+    border-radius: 20px;
+    line-height: 40px;
+    text-align: center;
+    width: 132px
+}
+
+#team-body {
+    height: calc(100vh - 68px);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#team-body-header {
+    font-size: 72px;
+    margin-top: 72px;
+    font-family: Kalam, cursive;
+}
+
+#three-people {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.individual {
+    margin: 80px;
+}
+
+.individual-name {
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 12px 0;
+}
+.individual-title {
+    text-align: center;
+    font-size: 24px;
+    padding: 12px 0;
+}
+
+.linkedin-github {
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,18 @@
+#app-container-logged-out {
+  width: 100%;
+  margin: 0
+}
+
+#app-container {
+  /* border: 5px solid red; */
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  max-width: 1360px;
+  display: flex;
+  justify-content: center;
+}
+
+.cursor:hover {
+  cursor: pointer;
+}

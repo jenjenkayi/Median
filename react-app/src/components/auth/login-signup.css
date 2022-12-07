@@ -1,0 +1,114 @@
+#login-container {
+  /* border: 1px solid red; */
+  display: flex;
+  box-shadow: 0px 0px 12px grey;
+  padding: 80px 0;
+}
+
+#login-container > * {
+  border: transparent;
+  align-self: center;
+  text-align: center;
+  margin: 10px 0;
+  width: 50%;
+}
+
+#login-container > label {
+  font-size: 12px;
+}
+
+#login-container > input {
+  border-bottom: 1px solid rgba(41, 41, 41, 1);
+  outline: none;
+}
+
+#login-container > button {
+  background: black;
+  color: white;
+  border-radius: 100px;
+  width: 200px;
+  height: 32px;
+  margin-bottom: 0;
+}
+
+#login-title {
+  font-size: 32px;
+}
+
+#login-title-b {
+  color: rgba(41, 41, 41, 1);
+}
+
+#login-redirect-signup {
+  color: green;
+  font-weight: bold;
+}
+
+#login-container > button:hover {
+  cursor: pointer;
+}
+
+#login-redirect-signup:hover {
+  cursor: pointer;
+}
+
+#signup-container {
+  display: flex;
+  box-shadow: 0px 0px 12px grey;
+  padding: 80px 0;
+}
+
+#signup-container > * {
+  border: transparent;
+  align-self: center;
+  text-align: center;
+  margin: 10px 0;
+  width: 50%;
+}
+
+#signup-container > label {
+  font-size: 12px;
+}
+
+#signup-container > input {
+  border-bottom: 1px solid rgba(41, 41, 41, 1);
+  outline: none;
+}
+
+#signup-container > button {
+  background: black;
+  color: white;
+  border-radius: 100px;
+  width: 200px;
+  height: 32px;
+  margin-bottom: 0;
+}
+
+#signup-title {
+  font-size: 32px;
+}
+
+#signup-title-b {
+  color: rgba(41, 41, 41, 1);
+}
+
+#signup-redirect-login {
+  color: green;
+  font-weight: bold;
+}
+
+#signup-container > button:hover {
+  cursor: pointer;
+}
+
+#signup-redirect-login:hover {
+  cursor: pointer;
+}
+
+.errors {
+  color: red;
+}
+
+.errors li {
+  list-style: none;
+}

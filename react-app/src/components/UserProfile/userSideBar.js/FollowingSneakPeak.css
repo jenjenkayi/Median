@@ -1,0 +1,14 @@
+.following-list li {
+  font-size: 13px;
+  list-style: none;
+  box-sizing: border-box;
+  margin: 10px 0px;
+}
+
+.following-list a {
+  color: darkgray;
+}
+
+.follower-item {
+  position: relative;
+}

@@ -1,0 +1,132 @@
+#main-icon-logged-out {
+    width: 160px;
+    /* width: 40%; */
+    display: flex
+}
+
+#img-logged-out {
+    align-self: center;
+}
+
+#median {
+    font-size: 36px;
+    font-weight: 800;
+    align-self: center
+}
+
+#main-icon-img {
+    max-width: 24px;
+}
+
+#container-1 {
+    width: 79px;
+    min-width: 79px;
+    height: 100vh;
+    border-right: 1px solid rgba(230, 230, 230, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#container-1-inner {
+    position: sticky;
+    top: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0
+}
+
+#navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%
+}
+
+#navbar>* {
+    margin: 12px 0
+}
+
+#container-1-logged-out {
+    border-bottom: 1px solid black;
+    height: 67px;
+    background-color: rgb(255, 192, 23);
+    /* background-color: red; */
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    width: 100%;
+    /* max-width: 1192px; */
+}
+
+#container-1-inner-logged-out {
+    display: flex;
+    min-width: 600px;
+    width: 1192px;
+    justify-content: space-between;
+}
+
+/*
+#navbar-container {
+    display: flex;
+
+} */
+
+
+#navbar-logged-out {
+    width: 360px;
+    display: flex;
+    align-items: center;
+    height: 67px;
+    justify-content: space-between;
+    margin: 0
+}
+
+/* #navbar-logged-out>div {
+    margin-left: 32px;
+} */
+
+#get-started {
+    background-color: black;
+    width: 104px;
+    height: 38px;
+    border-radius: 99em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-bar-container-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+#log-out-button {
+    background: transparent;
+    border: 1px solid grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#profile-button {
+    background: transparent;
+    border: 1px solid grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#meet-the-team {
+    background: transparent;
+    border: 1px solid grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}

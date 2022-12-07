@@ -1,0 +1,50 @@
+.user-card {
+  position: absolute;
+  top: -170px;
+  z-index: 100;
+  background-color: white;
+  box-shadow: 0 0 4px darkgray;
+  height: 150px;
+  padding: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.card-footer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn .action-btns {
+  margin: 0px;
+}
+.card-follower-count {
+  align-self: flex-end;
+
+  font-size: 12px;
+}
+
+.card-content {
+  color: darkgray;
+  font-size: 13px;
+  white-space: nowrap;
+  /* max-height: 33px; */
+  /* padding-bottom: 6px; */
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.card-sep {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+}
+
+.card-header h2 {
+  color: black;
+}

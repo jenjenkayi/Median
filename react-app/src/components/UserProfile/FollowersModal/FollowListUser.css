@@ -1,0 +1,13 @@
+.follow-info a {
+  color: black;
+  font-weight: 600;
+}
+
+.show-more-button {
+  border: 1px solid grey;
+  border-radius: 16px;
+  width: 88px;
+  height: 28px;
+  font-size: 12px;
+  align-self: center;
+}
