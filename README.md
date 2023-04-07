@@ -2,7 +2,7 @@
 
 Median is a full-stack application clone of Medium. It is an online platform where readers can find diverse stories, ideas and can share their prospectives on any topic. Our application incorporating React and Redux on the frontend with Flask, Python and SQLAlchemy on the backend.
 
-Live site: https://median.onrender.com
+Live site: https://median-a8pe.onrender.com/team
 
 
 ### Please find below links for our project Wiki:
